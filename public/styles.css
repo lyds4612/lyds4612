@@ -1,0 +1,38 @@
+.title {
+    font-size:36px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.column {
+    width: 400px;
+    display:inline-block;
+}
+.column + .column {margin-left: 12px;}
+.price {
+    font-size: 30px
+}
+.bottom {
+    margin-top: 12px;
+}
+.rec-image {
+    width: 100px;
+    height: 100px;
+}
+.recomendation-similar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+.rec-title {
+    font-size: 30px;
+    font-weight: normal;
+
+}
+.rec-product {
+    flex-basis: 100px;
+    padding: 12px 8px;
+}
+.rec-price {
+    font-size: 20px;
+}
